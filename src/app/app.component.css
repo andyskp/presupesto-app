@@ -1,0 +1,18 @@
+.resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 400px) {
+    .cabecero {
+        flex: auto;
+        flex-wrap: wrap;
+        color: white;
+    }
+    .resultado {
+        flex-wrap: wrap;
+        flex: auto;
+    }
+}

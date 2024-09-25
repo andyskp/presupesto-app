@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+
+    .agregar_contenedor,
+    div {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+}
